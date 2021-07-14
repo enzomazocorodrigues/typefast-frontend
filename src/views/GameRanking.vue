@@ -51,7 +51,7 @@
 			<v-textarea
 				v-model="awnser"
 				:color="!awnser ? 'grey lighten-1' : correct ? 'green accent-3' : 'red'"
-				autofocus
+				:autofocus="!loading"
 				outlined
 				@paste="(e) => e.preventDefault()"
 			></v-textarea>
