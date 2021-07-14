@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    baseApiUrl: 'http://localhost:3000'
+    baseApiUrl: window.location.includes('localhost') ? 'http://localhost:3000' : 'https://typefast-backend.herokuapp.com'
   },
   getters: {
     getBaseApiUrl: state => () => {
