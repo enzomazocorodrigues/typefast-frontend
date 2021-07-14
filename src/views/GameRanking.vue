@@ -1,7 +1,7 @@
 <template>
 	<div class="game-ranking">
 		<v-dialog
-			:value="countDown"
+			:value="countDown && !loading"
 			hide-overlay
 			persistent
 			max-width="100"
