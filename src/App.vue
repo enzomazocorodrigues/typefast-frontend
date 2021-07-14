@@ -5,8 +5,7 @@
         <v-row no-gutters justify="center">
           <v-col cols="12" md="8">
             <base-nav v-if="navigator"></base-nav>
-            <router-view/>
-            <router-view name="dialog"/>
+            <router-view></router-view>
           </v-col>
         </v-row>
       </v-container>

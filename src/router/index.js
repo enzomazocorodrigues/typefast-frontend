@@ -36,10 +36,10 @@ const routes = [
     component: Trofeus
   },
   {
-    path: '/game-ranking/:id',
-    name: 'GameRanking/id',
-    components: GameRanking,
-  }, 
+    path: '/game/:id',
+    name: 'Game/:id',
+    component: GameRanking
+  },
 ]
 
 const router = new VueRouter({

@@ -194,7 +194,7 @@ export default {
   methods: {
     clickPlay() {
       this.$emit('input', false)
-      this.$router.push('/games-ranking/23ced3d5-b550-41e5-afe1-56ad9537c448')
+      this.$router.push('/game/23ced3d5-b550-41e5-afe1-56ad9537c448')
     }
   }
 }
